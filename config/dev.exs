@@ -2,10 +2,11 @@ import Config
 
 # Configure your database
 config :testSvg, TestSvg.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "etaweb",
+  password: "etaweb",
   hostname: "localhost",
-  database: "testsvg_dev",
+  port: 5432,
+  database: "testSvg_dev",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
