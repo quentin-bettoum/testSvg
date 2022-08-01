@@ -98,6 +98,7 @@ defmodule TestSvgWeb do
       import TestSvgWeb.ErrorHelpers
       import TestSvgWeb.Gettext
       alias TestSvgWeb.Router.Helpers, as: Routes
+      alias TestSvgWeb.Svg
     end
   end
 
